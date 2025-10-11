@@ -1,0 +1,195 @@
+/* RESET AND FIXED HEADER STYLES */
+
+body {
+
+    margin: 0;
+
+    padding-top: 50px; /* Space for the fixed header */
+
+    font-family: Roboto, sans-serif; /* A font similar to Android's */
+
+    background-color: #eee; /* Light off-white background */
+
+}
+
+header {
+
+    background-color: #333; /* Dark grey header bar */
+
+    color: white;
+
+    padding: 10px 15px;
+
+    display: flex; /* Helps align the title and icons */
+
+    justify-content: space-between; /* Pushes items to the edges */
+
+    align-items: center;
+
+    position: fixed;
+
+    top: 0;
+
+    width: 100%;
+
+    z-index: 100;
+
+}
+
+header h1 {
+
+    font-size: 20px;
+
+    margin: 0;
+
+    color: white; 
+
+    font-weight: normal;
+
+}
+
+header button {
+
+    background: none;
+
+    border: none;
+
+    color: white;
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    padding: 0;
+
+}
+
+/* 2. CATEGORY TABS STYLES */
+
+.category-nav {
+
+    display: flex;
+
+    justify-content: flex-start; /* Aligns tabs to the left */
+
+    width: 100%;
+
+    background-color: white; /* Tabs are against a white background */
+
+    border-bottom: 1px solid #ddd;
+
+}
+
+.category-tab {
+
+    padding: 15px 20px;
+
+    font-weight: bold;
+
+    font-size: 14px;
+
+    color: white;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    flex-grow: 1; /* Tabs take equal space */
+
+    max-width: 150px;
+
+    margin-right: 5px; /* Slight gap between tabs */
+
+}
+
+/* The distinct Google Play colors from the image! */
+
+#apps-tab {
+
+    background-color: #69a74c; /* Green like in the image */
+
+}
+
+#games-tab {
+
+    background-color: #3b91bc; /* Blue like in the image */
+
+}
+
+/* You would continue with red, orange, etc. for other tabs */
+
+/* 3. CONTENT STYLES */
+
+.content {
+
+    padding: 15px;
+
+}
+
+.content h2 {
+
+    font-size: 16px;
+
+    color: #444;
+
+    margin-top: 15px;
+
+    font-weight: 500;
+
+    display: inline-block;
+
+}
+
+.see-more {
+
+    float: right;
+
+    background: none;
+
+    border: none;
+
+    color: #69a74c; /* Green color for the link */
+
+    font-weight: bold;
+
+    font-size: 12px;
+
+    cursor: pointer;
+
+    padding: 0;
+
+    margin-top: 18px; 
+
+}
+
+.app-card-row {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 10px;
+
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+
+}
+
+.app-card {
+
+    min-width: 100px; /* Small size like in the image */
+
+    height: 150px; 
+
+    background-color: white;
+
+    border: 1px solid #ddd;
+
+    text-align: center;
+
+    padding-top: 50px;
+
+    box-sizing: border-box;
+
+    margin-right: 10px;
+
+}
